@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: right;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#search-button, #lucky-button, #advanced-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lucky-button {
+    margin-left: 10px;
+}
+
+#lucky-button:hover {
+    background-color: #357ae8;
+}
